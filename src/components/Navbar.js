@@ -16,7 +16,7 @@ const Navbar =()=>{
                 </div>
                 <div className="col-3">
                     <p>Customer Service</p>
-                    <big>+012 345 6789</big>
+                    <big>+012 345 678900</big>
                 </div>
             </div>
         </div>
