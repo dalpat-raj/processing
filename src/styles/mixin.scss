@@ -1,0 +1,7 @@
+
+@mixin flex($ai, $fw) {
+    display: flex;
+    justify-content: space-between;
+    align-items: $ai;
+    flex-wrap: $fw;
+}
