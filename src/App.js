@@ -1,12 +1,16 @@
-import './App.scss';
-import Navbar from './components/Navbar';
-import Top__Navbar from './components/Top__Navbar';
+import "./App.scss";
+
+
+import Navbar from "./components/Navbar";
+import Top__Navbar from "./components/Top__Navbar";
+import DemoCarousel from "./components/Herosection";
 
 function App() {
   return (
     <div className="App">
-      <Top__Navbar/>
-      <Navbar/>
+      <Top__Navbar />
+      <Navbar />
+      <DemoCarousel />
     </div>
   );
 }
