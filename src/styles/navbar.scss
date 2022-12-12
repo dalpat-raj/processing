@@ -57,17 +57,52 @@
         }
 
         .col-3{
+            background: $bg-white;
             p{
                 color: $text-secondary-light;
                 font-size: 0.9rem;
                 text-align: right;
+                background: $bg-white;
             }
             big{
+                background: $bg-white;
                 color: $text-secondary;
                 font-family: sans-serif;
                 line-height: 2rem;
                 font-weight: 800;
             }
         }
+    }
+}
+
+@media(max-width:768px){
+    .navbar{
+
+        .row{
+            // display: block;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            row-gap: 1rem;
+
+            .col-2{
+                width: 100%;
+                form{
+                    width: 100%;
+                    
+                }
+            }
+
+            .col-3{
+                p{
+                    &:first-child{
+                        text-align: center;
+                    }
+                    
+                }
+                background: none;
+            }
+        }
+
     }
 }

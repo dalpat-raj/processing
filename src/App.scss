@@ -4,7 +4,8 @@
 @import '../src/styles/mixin.scss';
 @import '../src/styles/top__navbar.scss';
 @import '../src/styles/navbar.scss';
-@import "../src/styles/Herosec.scss";
+@import "../src/styles/hero__section.scss";
+@import "../src/styles/menu__bar.scss";
 
 
 *, *::after, *::before{
@@ -14,7 +15,10 @@
     text-decoration: none;
     list-style-type: none;
     font-family: $font-roboto;
+}
+body{
     background: #f5f5f5;
+
 }
 .container{
     width: 90%;
